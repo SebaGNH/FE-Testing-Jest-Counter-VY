@@ -55,3 +55,7 @@ yarn add --dev babel-jest @babel/core @babel/preset-env
 module.exports = {
   presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
 };
+
+
+// Par ausar el async await
+yarn add -D whatwg-fetch
